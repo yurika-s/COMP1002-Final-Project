@@ -39,8 +39,9 @@ nav .logo {
 }
 
 nav .logo img {
-    height: 4vh;
+    height: 40px;
     width: auto;
+    margin-right: 10px;
 }
 
 nav ul {
@@ -123,7 +124,6 @@ nav ul li a:hover {
 }
 
 .active {
-    padding: 0px 5%;
     left: 0;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
