@@ -41,6 +41,8 @@ nav .logo {
 nav .logo img {
     height: 4vh;
     width: auto;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 nav ul {
@@ -159,3 +161,11 @@ nav ul li a:hover {
         display: none;
     }
 }
+
+/* Footer */
+footer{
+    text-align: center;
+  padding: 3px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  }
