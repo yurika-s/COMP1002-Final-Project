@@ -4,6 +4,10 @@ body {
     padding: 0;
     margin: 0%;
     font-family: "Poppins", sans-serif;
+    
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 * {
@@ -31,6 +35,7 @@ nav {
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
         rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     z-index: 1;
+    width: 100%;
 }
 
 nav .logo {
@@ -163,9 +168,12 @@ nav ul li a:hover {
 }
 
 /* Footer */
-footer{
+
+
+footer {
+    width: 100%;
+    background-color: rgb(61, 61, 61);
+    color: white;
     text-align: center;
-  padding: 3px;
-  background-color: rgb(61, 61, 61);
-  color: white;
-  }
+    margin-top: auto;
+}
