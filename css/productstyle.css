@@ -1,145 +1,132 @@
+/*
+* common
+*/
 * {
     margin: 0;
     padding: 0;
 }
 
+body {
+    color: #090000;
+}
+
+
+footer {
+    color: #fff;
+}
+
 h2 {
     font-size: 2.2em;
-    margin-top: 10px;
+    margin: 2rem 0;
     text-align: center;
 }
 
-img {
+.max-w100 {
     max-width: 100%;
-    vertical-align: bottom;
 }
 
 .t-right {
     text-align: right;
 }
 
+
+/*
+* card
+*/
 .cards {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
     margin: 0 auto;
-}
-
-.l-wrapper {
-    margin: 3rem auto;
-    width: 320px;
-    /* 後で調整 */
 }
 
 .card {
     background-color: #fff;
     box-shadow: 0 0 8px rgba(0, 0, 0, .16);
-    color: #212121;
     text-decoration: none;
-    margin-right: 10px;
+    margin-bottom: 2rem;
     border-radius: 10px;
+    width: calc(100% / 3.5);
+    min-width: 300px;
+    max-width: 400px;
 }
 
-.card__header {
-    display: flex;
-    flex-wrap: wrap;
+.card:last-child {
+    margin-right: 0;
 }
 
-.card__title {
+.card-title {
+    font-size: 1.3rem;
+}
+
+.card-image {
     padding: 1rem 1rem 0;
-    font-size: 1.25rem;
-    order: 1;
 }
 
-.card__thumbnail {
-    margin: 10px 30px 0;
-    order: 0;
-}
-
-.card__image {
+.card-thumbnail {
     width: 100%;
+    border: solid 1px #a89897;
 }
 
-.card__body {
+.card-body {
     padding: 1rem;
 }
 
-.card__text+.card__text {
-    margin-top: .5rem;
-}
-
-.card__text.-number {
-    text-align: right;
-}
-
-.card__footer {
+.card-footer {
+    display: flex;
+    justify-content: flex-end;
     padding: 1rem;
     border-top: 1px solid #ddd;
 }
 
+/*
+* button
+*/
 .button {
     display: inline-block;
     text-decoration: none;
     transition: background-color .3s ease-in-out;
-}
-
-.button.-compact {
     padding: .5rem 1rem;
     border-radius: .25rem;
+}
+
+.btn-orange {
     background-color: #f9ad4b;
     color: #fff;
 }
 
-.button.-compact:hover,
-.button.-compact:focus {
+.btn-orange:hover,
+.btn-orange:focus {
     background-color: #ad7020;
 }
 
-.button2 {
-    background: orange;
-    border-radius: 12px;
-    box-shadow: 2px 4px 6px 3px rgba(0, 0, 0, .24);
-    border: 1px solid orange;
-    font-size: 16px;
-    line-height: 1.6;
-    display: block;
-    padding: 12px 20px;
-    color: #fff;
-    text-align: center;
-    cursor: pointer;
-    margin: 0;
-}
-
-/* グレー背景 */
+/*
+* modal
+*/
+/* gray background */
 .layer {
     background: rgba(0, 0, 0, .7);
-    /* 背景を薄くする */
     width: 100%;
     height: 100%;
     position: fixed;
-    /* 画面に固定するために指定 */
     top: 0;
     left: 0;
-    /* 追記 */
     z-index: -1;
     opacity: 0;
     visibility: hidden;
-
 }
 
-/* モーダルコンテンツ */
 .modal {
     position: relative;
     margin-right: auto;
     margin-left: auto;
-    width: 80%;
-    min-width: 440px;
-    /* 追記 */
+    width: 90%;
     opacity: 0;
     visibility: hidden;
 }
 
-.modal__inner {
+.modal-inner {
     margin-top: 125px;
     margin-bottom: 125px;
     position: relative;
@@ -147,35 +134,33 @@ img {
     margin-right: auto;
     background: #fff;
     box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.25);
-    /* モーダルにシャドウをかける */
     border-radius: 13px;
-    /* モーダルの角を丸める */
     display: block;
     padding: 21px 8px 21px;
     height: auto;
 }
 
-.modal__contents {
+.modal-contents {
     padding-top: 2rem;
     display: flex;
 }
 
-.modal__contents .modal-image {
+.modal-image {
     max-height: 90%;
     width: calc(100% / 3);
     padding: 0 2rem;
 }
 
-.modal__content {
+.modal-content {
     padding: 1rem 3rem;
     width: calc(100%/3*2);
 }
 
-.model__content h3 {
+.model-content h3 {
     font-size: 1.5rem;
 }
 
-.modal__button-wrap {
+.modal-button-wrap {
     position: absolute;
     right: 15px;
     top: 20px;
@@ -184,18 +169,18 @@ img {
     height: 2rem;
 }
 
-.button-03 {
-    padding: 16px;
+.modal-button {
+    margin-top: 20px;
+    padding: .6rem;
     display: flex;
+    justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: #fff;
-    /* // 折り返しの対応 */
     overflow-wrap: break-word;
 }
 
-.button-03-icon {
-    /* アイコンの縮小を防ぐ */
+/* cart icon on button */
+.modal-button-icon {
     flex-shrink: 0;
     width: 16px;
     height: 16px;
@@ -205,11 +190,7 @@ img {
     background-image: url("../images/cart-arrow-down-solid.svg");
 }
 
-.button-03-icon-text {
-    min-width: 0;
-}
-
-.button-03-icon::before {
+.modal-button-icon::before {
     content: "";
     display: block;
     width: 100%;
@@ -235,4 +216,56 @@ img {
 .layer.is-open .modal {
     opacity: 1;
     visibility: visible;
+}
+
+.bg-layer {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background-image: url(../images/polaroid-photos.png), url(../images/polaroid-photos.png);
+    background-repeat: no-repeat;
+    background-position: 20% 20%, 75% 75%;
+}
+
+/* for medium size */
+@media (max-width: 800px) {
+    .cards {
+        width: 90%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .modal {
+        width: 70%;
+    }
+
+    .modal-contents {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .modal-image {
+        max-height: 100%;
+        width: 100%;
+    }
+
+    .modal-content {
+        width: 100%;
+    }
+}
+
+/* for small size */
+@media (max-width: 500px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .modal {
+        width: 90%;
+    }
 }
