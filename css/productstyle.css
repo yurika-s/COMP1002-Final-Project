@@ -29,6 +29,14 @@ h2 {
     text-align: right;
 }
 
+.w-auto{
+    width: auto;
+}
+
+.h-auto{
+    height: auto;
+}
+
 
 /*
 * card
