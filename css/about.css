@@ -1,0 +1,77 @@
+/* About page styles */
+
+/* gallery header image */
+.gallery-image {
+  width: 100%;  /* Full width */
+  max-width: 350px; 
+  height: auto;  
+  margin: 10px 0 20px; /* Top and bottom margin */
+}
+
+
+#imageGallery {
+  display: flex; 
+  justify-content: center; /* Center horizontally */
+  align-items: center; /* Center vertically */
+  width: 100%; 
+  max-width: 600px; 
+  height: auto; 
+  margin: auto; /* Center horizontally */
+  padding: 10px; /* Padding around the gallery */
+}
+
+/* gallery image */
+#galleryImage {
+  width: 100%; 
+  height: auto; 
+  transition: transform 0.5s ease; 
+}
+
+/* Navigation buttons */
+#prev, #next {
+  font-size: 50px; 
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+}
+
+/* Hover effect */
+#prev:hover, #next:hover {
+  color: #0583d2;
+}
+
+/* about page content */
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap; /* Allow wrapping */
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 0 auto;
+}
+
+/* gallery wrapper */
+.gallery-wrapper {
+  flex: 1; 
+  display: flex;
+  flex-direction: column; /* Stack vertically */
+  align-items: center; /* Center horizontally */
+  justify-content: center; /* Center vertically */
+  margin: 20px; 
+}
+
+/* text wrapper */
+.text-wrapper {
+  flex: 1; 
+  background-color: rgba(255, 255, 255, 0.3); /* White with slight transparency */
+  padding: 20px;
+  margin: 20px; 
+}
+
+/* about page header */
+h2 {
+  width: 100%;
+  font-size: 2.2em;
+  margin-top: 10px;
+  text-align: center;
+}
