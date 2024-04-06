@@ -39,6 +39,7 @@
 /* Hover effect */
 #prev:hover, #next:hover {
   color: #d97c3f;
+  text-shadow: 0 0 10px rgba(255, 125, 39, 0.7);
 }
 
 /* about page content */
@@ -73,19 +74,15 @@
 }
 
 /* about page header */
-h2 {
+.aboutheader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100%;
   font-size: 2.2em;
   color: #3d2f28;
   margin-top: 10px;
   text-align: center;
-}
-
-/* about page header */
-.aboutheader {
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 /* about page header image */
