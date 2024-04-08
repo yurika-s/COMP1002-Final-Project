@@ -11,71 +11,42 @@
 </head>
 
 <body>
-  
-  <script src="../js/universal.js"></script>
-  <!--MUST HAVES BEGINNING!-->
-  <img id="myBG" src="../images/paperbg.jpg" style="width: auto; height: auto;">
-  <!-- Navbar -->
-  <nav>
-    <div class="logo">
-      <a href="../html/homepage.html"><img src="../images/logo_no_brush.png" alt="logo"></a>
+  <header></header>
+  <div class="wrapper">
+
+    <div id="inputs">
+
+      <div>
+
+        <center>
+
+          <form name="input" action="./contactsubmit.html">
+            <p>Leave your contact info with us and a brief description of your query and we will get back to you.</p>
+            <fieldset>
+              <legend>Contact Info</legend>
+              Full name: <input type="text" name="fullname" placeholder="Jeffery Smith"><br>
+              Email Address: <input type="email" name="email" placeholder="name@gmail.com"><br>
+              Phone Number: <input type="tel" name="phone" placeholder="705-123-4567"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+            </fieldset>
+
+            <fieldset>
+              <legend>Description</legend>
+              <textarea rows="4" cols="50"></textarea><br>
+            </fieldset>
+            <input type="submit" value="Submit">
+          </form>
+        </center>
+      </div>
     </div>
-    <ul>
-      <li>
-        <a href="../html/homepage.html">Home</a>
-      </li>
-      <li>
-        <a href="../html/products.html">Products</a>
-      </li>
-      <li>
-        <a href="../html/about.html">About</a>
-      </li>
-      <li>
-        <a href="../html/contact.html">Contact Us</a>
-      </li>
-    </ul>
-    <div class="hamburger">
-      <span class="line"></span>
-      <span class="line"></span>
-      <span class="line"></span>
-    </div>
-  </nav>
-  <div class="menubar">
-    <ul>
-      <li>
-        <a href="../html/homepage.html">Home</a>
-      </li>
-      <li>
-        <a href="../html/products.html">Products</a>
-      </li>
-      <li>
-        <a href="../html/about.html">About</a>
-      </li>
-      <li>
-        <a href="../html/contact.html">Contact Us</a>
-      </li>
-    </ul>
   </div>
 
-
-
-  <!--MUST HAVES END!-->
-
-  <div class="contactinfo">
-    <h1>Contact Us</h1>
-    <h2>Customer Service</h2>
-    <p>Phone: (705)123-4567</p>
-    <p>Email: polaroid@gmail.com</p>
-    <h2>Technical Service</h2>
-    <p>Phone: (705)234-5678</p>
-    <p>Email: polaroidtech@gmail.com</p>
-  </div>
   <!--MUST HAVE!-->
-  <footer>
-    <p>@2024 Polaroid. All Rights Reserved.</p>
-    <p>Privacy Policy</p>
-  </footer>
+  <footer></footer>
   <!--MUST HAVE STOP!-->
+  <script src="../js/header-footer.js"></script>
+
+  <script src="../js/universal.js"></script>
 </body>
 
 </html>
