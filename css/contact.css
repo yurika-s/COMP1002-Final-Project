@@ -10,7 +10,30 @@ fieldset {
     color: black;
 }
 
-/* width */
-.w-40vw {
+/* body content */
+.content {
+    margin: 3rem auto;
+}
+
+/* image width*/
+.img-complete {
     width: 40vw;
+}
+
+@media screen and (max-width: 992px) {
+    .img-complete {
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .img-complete {
+        width: 60vw;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .img-complete {
+        width: 80vw;
+    }
 }
