@@ -104,6 +104,20 @@ h1, h2{
   clear: both;
 }
 
+/* width */
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
+}
+
+/* text */
+.t-center {
+  text-align: center;
+}
+
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
