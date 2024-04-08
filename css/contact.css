@@ -10,10 +10,6 @@ fieldset {
     color: black;
 }
 
-.wrapper {
-    float: center;
-}
-
 /* width */
 .w-40vw {
     width: 40vw;

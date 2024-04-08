@@ -12,33 +12,29 @@
 
 <body>
   <header></header>
-  <div class="wrapper">
+  <div id="inputs">
+    <form name="input" action="./contactsubmit.html" class="m-0-auto">
+      <p class="t-center">Leave your contact info with us and a brief description of your query and we will get back
+        to you.</p>
+      <fieldset>
+        <legend>Contact Info</legend>
+        <div class="t-center">
+          Full name: <input type="text" name="fullname" placeholder="Jeffery Smith"><br>
+          Email Address: <input type="email" name="email" placeholder="name@gmail.com"><br>
+          Phone Number: <input type="tel" name="phone" placeholder="705-123-4567" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        </div>
+      </fieldset>
 
-    <div id="inputs">
-
-      <div>
-
-        <center>
-
-          <form name="input" action="./contactsubmit.html">
-            <p>Leave your contact info with us and a brief description of your query and we will get back to you.</p>
-            <fieldset>
-              <legend>Contact Info</legend>
-              Full name: <input type="text" name="fullname" placeholder="Jeffery Smith"><br>
-              Email Address: <input type="email" name="email" placeholder="name@gmail.com"><br>
-              Phone Number: <input type="tel" name="phone" placeholder="705-123-4567"
-                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-            </fieldset>
-
-            <fieldset>
-              <legend>Description</legend>
-              <textarea rows="4" cols="50"></textarea><br>
-            </fieldset>
-            <input type="submit" value="Submit">
-          </form>
-        </center>
+      <fieldset>
+        <legend>Description</legend>
+        <div class="t-center">
+          <textarea rows="4" cols="50"></textarea>
+        </div>
+      </fieldset>
+      <div class="t-center">
+        <input type="submit" value="Submit">
       </div>
-    </div>
+    </form>
   </div>
 
   <!--MUST HAVE!-->
