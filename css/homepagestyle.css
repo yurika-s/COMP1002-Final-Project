@@ -113,9 +113,9 @@ h1, h2{
   width: 50%;
 }
 
-/* text */
-.t-center {
-  text-align: center;
+/* margin */
+.mb-rem {
+  margin-bottom: 1rem;
 }
 
 @media screen and (max-width: 600px) {
