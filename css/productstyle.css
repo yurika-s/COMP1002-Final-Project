@@ -1,11 +1,6 @@
 /*
 * common
 */
-* {
-    margin: 0;
-    padding: 0;
-}
-
 body {
     color: #090000;
 }
@@ -19,6 +14,7 @@ h2 {
     font-size: 2.2em;
     margin: 2rem 0;
     text-align: center;
+    color: #3d2f28
 }
 
 .max-w100 {
@@ -29,11 +25,11 @@ h2 {
     text-align: right;
 }
 
-.w-auto{
+.w-auto {
     width: auto;
 }
 
-.h-auto{
+.h-auto {
     height: auto;
 }
 
