@@ -1,0 +1,14 @@
+
+form {
+    color: rgb(0, 0, 0);
+    height: auto;
+    width: 450px;
+    background-image: url(../images/Paperformbg.jpg);
+    border-radius: 2%;
+}
+fieldset{
+    color: black;
+}
+.wrapper {
+    float: center;
+}
