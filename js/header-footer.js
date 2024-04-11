@@ -5,11 +5,11 @@ header.innerHTML = `
     <!-- Navbar -->
     <nav>
       <div class="logo">
-        <a href="/"><img src="./images/logo_no_brush.png" alt="logo"></a>
+        <a href="./"><img src="./images/logo_no_brush.png" alt="logo"></a>
       </div>
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="./">Home</a>
         </li>
         <li>
           <a href="./products.html">Products</a>
@@ -30,7 +30,7 @@ header.innerHTML = `
     <div class="menubar">
       <ul>
         <li>
-          <a href="/">Home</a>
+          <a href="./">Home</a>
         </li>
         <li>
           <a href="./products.html">Products</a>
