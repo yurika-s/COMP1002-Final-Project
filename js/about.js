@@ -1,10 +1,10 @@
 // Description: JS for the About page
 
 // Gallery images set in an array
-const images = ["../images/aboutpage/aboutgallery1.png", "../images/aboutpage/aboutgallery2.png", "../images/aboutpage/aboutgallery3.png", "../images/aboutpage/aboutgallery4.png"];
+const images = ["./images/aboutpage/aboutgallery1.png", "./images/aboutpage/aboutgallery2.png", "./images/aboutpage/aboutgallery3.png", "./images/aboutpage/aboutgallery4.png"];
 
 // Large images set in an array
-const largeImages = ["../images/aboutpage/aboutgallery1b.png","../images/aboutpage/aboutgallery2b.png", "../images/aboutpage/aboutgallery3b.png", "../images/aboutpage/aboutgallery4b.png"];
+const largeImages = ["./images/aboutpage/aboutgallery1b.png","./images/aboutpage/aboutgallery2b.png", "./images/aboutpage/aboutgallery3b.png", "./images/aboutpage/aboutgallery4b.png"];
 
 let currentIndex = 0; // track the current image index, starts at 0
 

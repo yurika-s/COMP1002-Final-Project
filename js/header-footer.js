@@ -1,15 +1,15 @@
 const header = document.querySelector("header");
 const footer = document.querySelector("footer");
 header.innerHTML = `
-    <img id="myBG" src="../images/paperbg.jpg" class="w-auto h-auto" alt="background image paper">
+    <img id="myBG" src="./images/paperbg.jpg" class="w-auto h-auto" alt="background image paper">
     <!-- Navbar -->
     <nav>
       <div class="logo">
-        <a href="./index.html"><img src="../images/logo_no_brush.png" alt="logo"></a>
+        <a href="/"><img src="./images/logo_no_brush.png" alt="logo"></a>
       </div>
       <ul>
         <li>
-          <a href="./index.html">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="./products.html">Products</a>
@@ -30,7 +30,7 @@ header.innerHTML = `
     <div class="menubar">
       <ul>
         <li>
-          <a href="./index.html">Home</a>
+          <a href="/">Home</a>
         </li>
         <li>
           <a href="./products.html">Products</a>

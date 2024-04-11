@@ -14,8 +14,8 @@ const products = [
     ],
     'price': '$200',
     'image': [
-      '../images/products/card-onestep600.jpg',
-      '../images/products/modal-onestep600.jpg'
+      './images/products/card-onestep600.jpg',
+      './images/products/modal-onestep600.jpg'
     ]
   },
   {
@@ -29,8 +29,8 @@ const products = [
     ],
     'price': '$250',
     'image': [
-      '../images/products/card-impulse.jpg',
-      '../images/products/modal-impulse.jpg'
+      './images/products/card-impulse.jpg',
+      './images/products/modal-impulse.jpg'
     ]
   },
   {
@@ -44,8 +44,8 @@ const products = [
     ],
     'price': '$100',
     'image': [
-      '../images/products/card-captiva.jpg',
-      '../images/products/modal-captiva.jpg'
+      './images/products/card-captiva.jpg',
+      './images/products/modal-captiva.jpg'
     ]
   }
 ];
