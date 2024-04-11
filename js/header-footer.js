@@ -5,20 +5,20 @@ header.innerHTML = `
     <!-- Navbar -->
     <nav>
       <div class="logo">
-        <a href="../html/homepage.html"><img src="../images/logo_no_brush.png" alt="logo"></a>
+        <a href="./index.html"><img src="../images/logo_no_brush.png" alt="logo"></a>
       </div>
       <ul>
         <li>
-          <a href="../html/homepage.html">Home</a>
+          <a href="./index.html">Home</a>
         </li>
         <li>
-          <a href="../html/products.html">Products</a>
+          <a href="./products.html">Products</a>
         </li>
         <li>
-          <a href="../html/about.html">About</a>
+          <a href="./about.html">About</a>
         </li>
         <li>
-          <a href="../html/contact.html">Contact Us</a>
+          <a href="./contact.html">Contact Us</a>
         </li>
       </ul>
       <div class="hamburger">
@@ -30,16 +30,16 @@ header.innerHTML = `
     <div class="menubar">
       <ul>
         <li>
-          <a href="../html/homepage.html">Home</a>
+          <a href="./index.html">Home</a>
         </li>
         <li>
-          <a href="../html/products.html">Products</a>
+          <a href="./products.html">Products</a>
         </li>
         <li>
-          <a href="../html/about.html">About</a>
+          <a href="./about.html">About</a>
         </li>
         <li>
-          <a href="../html/contact.html">Contact Us</a>
+          <a href="./contact.html">Contact Us</a>
         </li>
       </ul>
     </div>

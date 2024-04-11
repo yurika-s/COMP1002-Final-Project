@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polaroid|Products</title>
+  <link rel="icon" type="image/x-icon" href="./images/favicon.png">
+  <link rel="stylesheet" href="./css/homepagestyle.css">
+  <link rel="stylesheet" href="./css/universal.css">
+  <link rel="stylesheet" href="./css/products.css">
+</head>
+
+<body>
+  <header>
+  </header>
+
+  <!-- product cards list -->
+  <h2>products</h2>
+  <div class="cards">
+    <!-- OneStep600 -->
+    <div class="card">
+      <div class="card-image">
+        <img class="card-thumbnail" src="./images/products/card-onestep600.jpg" alt="image of OneStep600">
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">OneStep600</h3>
+        <p class="t-right">$200</p>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="button btn-orange js-modal-button1">details</a>
+      </div>
+    </div>
+
+    <!-- Impulse -->
+    <div class="card">
+      <div class="card-image">
+        <img class="card-thumbnail" src="./images/products/card-impulse.jpg" alt="image of Impulse">
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Impulse</h3>
+        <p class="t-right">$250</p>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="button btn-orange js-modal-button2">details</a>
+      </div>
+    </div>
+
+    <!-- Captiva -->
+    <div class="card">
+      <div class="card-image">
+        <img class="card-thumbnail" src="./images/products/card-captiva.jpg" alt="image of Captiva">
+      </div>
+      <div class="card-body">
+        <h3 class="card-title">Captiva</h3>
+        <p class="t-right">$100</p>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="button btn-orange js-modal-button3">details</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- product details modal -->
+  <div class="bg-layer"></div>
+  <div class="layer js-modal">
+    <div class="modal">
+      <div class="modal-inner">
+        <!-- × button -->
+        <div class="modal-button-wrap">
+          <img class="close-btn js-close-button max-w100" src="./images/circle-xmark-regular.svg" alt="xmark icon">
+        </div>
+        <div class="modal-contents">
+          <div class="modal-image">
+            <img class="max-w100 js-modal-image" src="./images/products/card-onestep600.jpg" alt="product image">
+          </div>
+          <div class="modal-content">
+            <h3 class="js-modal-title">OneStep600</h3>
+            <p class="t-right js-price"></p>
+            <ul class="js-modal-list"></ul>
+            <p class="">
+              <a href="#" class="button btn-orange modal-button">
+                <span class="modal-button-icon"></span>
+                <span>Add to Cart</span>
+              </a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+  </footer>
+
+  <script src="./js/header-footer.js"></script>
+  <script src="./js/universal.js"></script>
+  <script src="./js/products.js"></script>
+
+</body>
+
+</html>
