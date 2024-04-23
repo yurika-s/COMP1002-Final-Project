@@ -51,3 +51,9 @@ You will receive 20% of your final grade for this assignment. The grade will be 
 The evaluation includes two parts:
 1. Project code assessment (website must be published on the web using GitHub pages).
 2. Teamwork (code collaboration) and presentation assessment (“Commit” pushed to the GitHub repository by group members will be checked).
+
+ ---
+> [!NOTE]
+> The course instructor provides the following section - Hossein Hesami.<br>GitHub: <a href="https://github.com/Dario-Hesami">Dario-Hesami</a>
+<h4>HTML, CSS, & JS Fund.</h4>
+✅ Final Project - submission reviewed.
